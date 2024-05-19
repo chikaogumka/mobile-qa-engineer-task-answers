@@ -15,10 +15,17 @@
     ]
         
      EXAMPLE OF BDT: Bolt food's search restaurant feature scenario
-     can look like this. Feature: Search restaurants Scenario should
-     successfully show name of restaurant if it exsits on platform
-     withdrawal.
-     GIVEN the restaurants name is Moku
+     can look like this.
+     Feature: Search restaurants Scenario should
+     successfully show name of restaurant if it exsits on platform.
+     GIVEN the restaurant's name is Moku
      WHEN the user searches Moku
-     THEN Moku restaurant and other restaurants related to result
-     should be displayed. |
+     THEN Moku restaurant and other restaurants related to result should be displayed.
+
+
+## Question 2b
+Testing can be performed by using datasets gotten from using Boundary value analysis or Equivalence partitioning technique.
+
+![Data Driven test](https://github.com/chikaogumka/mobile-qa-engineer-task-answers/blob/main/images/BVA.png)
+
+Figure describes the datasets that would be used as inputs during testing the application that allows input of 0 - 100. Testing will be performed to ensure the application only accepts data in the ‘valid’ range. Application should throw errors for invalid inputs and edge cases.
