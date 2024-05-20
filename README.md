@@ -96,3 +96,17 @@ Assignee:
 Status
 
 </details>
+
+
+<details>
+    <summary>Question 4a answer</summary>
+
+    Answer found in `divisibleCountFunction.js` file
+</details>
+
+
+<details>
+    <summary>Question 5 answer</summary>
+
+    Answers found in `returnAllCustomers.sql` and `returnCustomersOrders.sql`  file
+</details>
